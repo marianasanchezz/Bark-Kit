@@ -1,0 +1,89 @@
+body {
+    text-align: center;
+    background-color: #5F939A;
+  }
+  
+  h1 {
+    font-size: 5rem;
+    color: #F2EDD7;
+    font-family: "Arvo", cursive;
+    text-shadow: 5px 0 #3A6351;
+  
+  }
+  
+  footer {
+    color: #F2EDD7;
+    font-family: sans-serif;
+  }
+  
+  .w {
+    background-image: url("img/chi.png");
+    background-size: 100%;
+  }
+  
+  .a {
+    background-image: url("img/husky.png");
+    background-size: 150%;
+  }
+  
+  .s {
+    background-image: url("img/shih.png");
+    background-size: 175%;
+  }
+  
+  .d {
+    background-image: url("img/pitbull.png");
+    background-size: 140%;
+  }
+  
+  .j {
+    background-image: url("img/lab.png");
+    background-size: 150%;
+  }
+  
+  .k {
+    background-image: url("img/weenie.png");
+    background-size: 150%;
+  }
+  
+  .l {
+    background-image: url("img/toy.png");
+    background-size: 115%;
+  }
+  
+  .set {
+    margin: 10% auto;
+  }
+  
+  .game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+  
+  .pressed {
+    box-shadow: 0 3px 4px 0 #3A6351;
+    opacity: 0.5;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .bark {
+    outline: none;
+    border: 10px solid #79afb6;
+    font-size: 3rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #3A6351;
+    text-shadow: 3px 0 #F2EDD7;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: left;
+    margin: 10px;
+    background-color: white;
+  }
+  
