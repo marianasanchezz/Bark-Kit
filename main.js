@@ -3,7 +3,18 @@ document.querySelectorAll(".bark")[i].addEventListener("click", function() {
     
     var buttonInnerHTML = this.innerHTML;
 
-    switch (buttonInnerHTML) {
+    makeSound(buttonInnerHTML);
+});
+}
+
+document.addEventListener("keydown", function(event) {
+    makeSound(event.key);
+
+});
+
+function makeSound(key) {
+    
+    switch (key) {
         case 'w':
             var chi = new Audio("sounds/chi.m4a");
             chi.play();
@@ -42,6 +53,4 @@ document.querySelectorAll(".bark")[i].addEventListener("click", function() {
         default: console.log();
     }
     
-});
 }
-
